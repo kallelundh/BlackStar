@@ -13,16 +13,35 @@ const navSlide = () => {
 			if (link.style.animation) {
 				link.style.animation = '';
 			} else {
-				link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.15}s`;
+				link.style.animation = `navLinkFade 0s ease forwards ${index / 10 + 0.15}s`;
 			}
 		});
 		//Burger animation
 		burger.classList.toggle('toggle');
 
-
 	});
+
+	navLinks.forEach(link => {
+		link.addEventListener('click', () => {
+			nav.classList.remove('nav-active');
+		})
+	})
+
+	navLinks.forEach(link => {
+		link.addEventListener('click', () => {
+			burger.classList.toggle('toggle');
+		})
+	})
 
 
 }
 
 navSlide();
+
+
+/*
+        const video = document.querySelector("video");
+        setTimeout(() => {
+            video.play();
+        }, 10000)
+*/
