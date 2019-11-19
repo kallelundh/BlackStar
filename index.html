@@ -7,14 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Sanitize-->
     <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ato7huo.css">
     <!--End Sanitize-->
     <!--Styles-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="smooth-scroll.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="horizontal-scroll.css" />
+
     <!--End Styles-->
     <!--Font-->
-    <link rel="stylesheet" href="https://use.typekit.net/ato7huo.css">
     <!--End Font-->
     <title> THE BLACKSTAR</title>
 </head>
@@ -57,33 +61,84 @@
     <!--End Navbar-->
     <!--smooth-scroll-->
     <div class="container-scroll">
-        <section id="home">
+        <section>
             <h1>Lorem ipsum dolor sit amet</h1>
             <p class="lead">Lorem ipsum dolor sit amet</p>
         </section>
-        <section id="about">
+
+        <section >
+            
             <h1>Lorem ipsum dolor sit amet</h1>
             <p class="lead">Lorem ipsum dolor sit amet</p>
         </section>
-        <section id="work">
+        <section>
             <h1>Lorem ipsum dolor sit amet</h1>
             <p class="lead">Lorem ipsum dolor sit amet</p>
         </section>
-        <section id="project">
+        <section>
             <h1>Lorem ipsum dolor sit amet</h1>
             <p class="lead">Lorem ipsum dolor sit amet</p>
         </section>
-        <section id="project">
+        <section>
             <h1>Lorem ipsum dolor sit amet</h1>
             <p class="lead">Lorem ipsum dolor sit amet</p>
         </section>
-        <section id="project">
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet</p>
+        <section>
+            <div class="slider">
+                <div class="mySlides fade first">
+                  <img class="slide one" src="road.jpg" alt="cars" loading="lazy" />
+                </div>
+          
+                <div class="mySlides fade second">
+                  <img class="slide two" src="road.jpg" alt="cars" loading="lazy" />
+                </div>
+          
+                <div class="mySlides fade third">
+                  <img class="slide three" src="road.jpg" alt="cars" loading="lazy" />
+                </div>
+                <div class="mySlides fade fourth">
+                  <img class="slide four" src="road.jpg" alt="cars" loading="lazy" />
+                </div>
+                <div class="pagination">
+                  <span class="dot" data-index="0"></span>
+                  <span class="dot" data-index="1"></span>
+                  <span class="dot" data-index="2"></span>
+                  <span class="dot" data-index="3"></span>
+                </div>
+              </div>
         </section>
-        <section id="project">
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet</p>
+
+        <section class=" contact">
+            <article class="contact-form">
+                <form class="form" action="get">
+                  <h1 class="the-order">The Order</h1>
+          
+                  <div class="contact-line-box">
+                    <img class="contact-line" src="line.svg" />
+                  </div>
+                  <p class="pre-order">Pre-order your Blackstar here.</p>
+          
+                  <label for="email"> email</label>
+                  <input class="input" type="text" name="email" />
+          
+                  <label for="name"> Firstname</label>
+                  <input class="input" type="text" name="name" />
+          
+                  <label for="name"> Lastname</label>
+                  <input class="input" type="text" name="name" />
+          
+                  <label for="name"> Phone number</label>
+                  <input class="input" type="text" name="name" />
+          
+                  <button class="button-submit" type="submit">Submit</button>
+          
+                  <div class="icons">
+                    <img src="Facebook.png" alt="Facebook" loading="lazy" />
+                    <img src="Instagram.png" alt="Instagram" loading="lazy" />
+                    <img src="Twitter.png" alt="Twitter" loading="lazy" />
+                  </div>
+                  <p class="mail">info@blackstar.com</p>
+                </form>
         </section>
     </div>
     <!--End smooth-scroll-->
