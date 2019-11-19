@@ -58,6 +58,44 @@ dots.forEach(dot => {
 slider.addEventListener("scroll", event => {
   console.log(slider.scrollLeft);
   console.log(event);
+  console.log(window.innerWidth);
+  const pageWidth = window.innerWidth;
+
+  const dotContainer = document.getElementById('dot-container');
+
+  for (let i = 0; i < dotContainer.childElementCount; i++) {
+    const dot = dotContainer.children[i];
+
+    if (
+      (slider.scrollLeft + (pageWidth / 2)) >= pageWidth * i &&
+      (slider.scrollLeft + (pageWidth / 2)) <= pageWidth * (i + 1)
+    ) {
+      dot.classList.add('active');
+    } else {
+      dot.classList.remove('active');
+    }
+
+  }
+
+  // if (
+  //   slider.scrollLeft > pageWidth * 0 &&
+  //   slider.scrollLeft < pageWidth * 1
+  // ) {
+  //   // 1 = active
+
+  // } else {
+  //   // 1 != active
+  // }
+  // if (
+  //   slider.scrollLeft > pageWidth * 1 &&
+  //   slider.scrollLeft < pageWidth * 2
+  // ) {
+  //   // 2
+  // }
+  // if (slider.scrollLeft > pageWidth * 2) {
+  //   // 3
+  // }
+
   // calculate percentage/index from left
   // revmove active classname from dots
   // add active state to one dot
