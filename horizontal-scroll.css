@@ -1,0 +1,38 @@
+.slide {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  position: relative;
+}
+.pagination {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(253, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active,
+.dot:hover {
+  background-color: #532d2d;
+}
+
+.dotChanged {
+  background-color: blue;
+}
