@@ -2,21 +2,25 @@
   width: 100vw;
   height: 100vh;
   scroll-snap-align: center;
-  
+
 }
+
 .slider {
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
+
+
 .pagination {
   width: 100vw;
   display: flex;
   align-items: center;
 }
+
 .dot-container {
   position: relative;
   bottom: 100px;
