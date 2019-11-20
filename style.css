@@ -3,11 +3,14 @@
   box-sizing: border-box;
   font-family: aktiv-grotesk, sans-serif;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   overflow-x: hidden;
   height: 100vh;
+  width: 100vw;
 }
 
 .container-scroll h1 {
