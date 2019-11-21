@@ -93,6 +93,7 @@ label {
   width: 355px;
   align-items: center;
   height: 44px;
+
 }
 
 .mini-input{
@@ -112,14 +113,15 @@ label {
 
 .icons {
   display: flex;
-  height: 24px;
   width: 30%;
   justify-content: space-between;
 }
-
-.instagram {
-  height: 30px;
+.imgage-icons{
+  height: 24px;
+  width: 24px;
 }
+
+
 
 .mail {
   font-size: 10px !important;
@@ -151,4 +153,5 @@ footer ul li {
   list-style-type: none;
  border-bottom: solid #8A7000 1px;
  font-size: 10px;
+ margin-bottom: 10px;
 }
