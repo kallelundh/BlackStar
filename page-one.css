@@ -54,3 +54,13 @@
     transform: translateY(2px);
     z-index: 1;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .first-page-button {
+        margin-bottom: 192px;
+    }
+
+    .first-page-button:hover {
+        margin-bottom: 192px;
+    }
+}
