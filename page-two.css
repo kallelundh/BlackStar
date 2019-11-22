@@ -13,8 +13,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     text-align: left;
+    color: white;
+    line-height: 240%;
 }
 
 .page-two h1 {
@@ -29,9 +31,13 @@
     color: white;
 }
 
-.page-two-span {
-    font-size: 20px;
-    font-weight: regular;
-    color: white;
-    border-bottom: 2px solid #ffce00;
+.page-two-text-p {
+    border-bottom: 2px solid #FFCE00;
+    width: 105px;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+}
+
+.page-two-text-p:hover {
+    width: 210px;
 }

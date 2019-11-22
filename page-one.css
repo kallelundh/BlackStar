@@ -4,7 +4,16 @@
     align-items: center;
     justify-content: flex-end;
     text-align: center;
-    background-color: black;
+    z-index: -2;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 .first-page-button {
@@ -23,6 +32,7 @@
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    z-index: 1;
 }
 
 .first-page-button:hover {
@@ -42,4 +52,5 @@
     -ms-transform: translateY(2px);
     -o-transform: translateY(2px);
     transform: translateY(2px);
+    z-index: 1;
 }
