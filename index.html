@@ -91,18 +91,18 @@
         </section>
         <section>
             <div class="slider">
-                <div class="mySlides fade first">
+                <div>
                     <img class="slide one" src="road.jpg" alt="cars" loading="lazy" />
                 </div>
 
-                <div class="mySlides fade second">
+                <div>
                     <img class="slide two" src="road.jpg" alt="cars" loading="lazy" />
                 </div>
 
-                <div class="mySlides fade third">
+                <div>
                     <img class="slide three" src="road.jpg" alt="cars" loading="lazy" />
                 </div>
-                <div class="mySlides fade fourth">
+                <div>
                     <img class="slide four" src="road.jpg" alt="cars" loading="lazy" />
                 </div>
             </div>
@@ -116,7 +116,7 @@
             </div>
         </section>
 
-        <section class=" contact">
+        <section class="contact">
             <article class="contact-form">
                 <form class="form" action="get">
                     <h1 class="the-order">The Order</h1>
@@ -126,31 +126,55 @@
                     </div>
                     <p class="pre-order">Pre-order your Blackstar here.</p>
 
-                    <label for="email"> email</label>
+                    <label for="email">e-mail</label>
                     <input class="input" type="text" name="email" />
 
-                    <label for="name"> Firstname</label>
+                    <label for="name">First name</label>
                     <input class="input" type="text" name="name" />
 
-                    <label for="name"> Surname</label>
+                    <label for="name">Surname</label>
                     <input class="input" type="text" name="name" />
 
-                    <label for="name"> Phone number</label>
-                    <input class="input" type="text" name="name" />
+                    <label for="name">Phone number</label>
+                    <div class="number">
+                        <p>+</p> <input class="mini-input" type="number">
+                        <p>-</p>
+                        <input class="big-input" type="text" name="name" />
 
-                    <button class="button-submit" type="submit">Submit</button>
-
-                    <div class="icons">
-                        <img src="Facebook.png" alt="Facebook" loading="lazy" />
-                        <img src="Instagram.png" alt="Instagram" loading="lazy" />
-                        <img src="Twitter.png" alt="Twitter" loading="lazy" />
                     </div>
-                    <p class="mail">info@blackstar.com</p>
+
+                    <div class="pre-order-btn">
+
+                        <button class="button-submit" type="submit">Sign up!</button>
+                    </div>
+
+
+
+
+                    <footer>
+                        <div class="footer-section">
+                            <div class="icons">
+                                <img class="imgage-icons" src="facebook.png" alt="Facebook" loading="lazy" />
+                                <img class="imgage-icons" src="Instagram.png" alt="Instagram" loading="lazy" />
+                                <img class="imgage-icons" src="Twitter.png" alt="Twitter" loading="lazy" />
+                            </div> height: 24px;
+                            width: 24px;
+                            <p class="mail">info@blackstar.com</p>
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Cookie information</li>
+                                <li>Terms & Conditions</li>
+
+                            </ul>
+                        </div>
                 </form>
+                </footer>
+            </article>
         </section>
-    </div>
-    <!--End smooth-scroll-->
-    <script src="app.js"></script>
+
+
+        <!--End smooth-scroll-->
+        <script src="app.js"></script>
 </body>
 
 </html>
