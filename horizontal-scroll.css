@@ -1,11 +1,13 @@
 
 .textbox-pagesix {
-position: relative;
-z-index: 2;
-color: red;
-border: 2px solid hotpink;
-top: 300px;
+  position: relative;
+  bottom: 500px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 1; 
+  width: 50%;
 }
+.textbox-pagesix
 
 
 .slide {
