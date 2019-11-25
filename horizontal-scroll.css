@@ -1,9 +1,10 @@
 
 .textbox-pagesix {
-position: absolute;
-z-index: 1;
+position: relative;
+z-index: 2;
 color: red;
 border: 2px solid hotpink;
+top: 300px;
 }
 
 
