@@ -1,0 +1,66 @@
+.page-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    z-index: -2;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.first-page-button {
+    font-size: 16px;
+    width: 126px;
+    height: 40px;
+    background-color: #FFCE00;
+    color: black;
+    border-radius: 6px;
+    margin-bottom: 88px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px 2px #FFCE00;
+    color: black;
+    left: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.first-page-button:hover {
+    font-size: 16px;
+    width: 126px;
+    height: 40px;
+    background-color: black;
+    color: FFCE00;
+    border-radius: 6px;
+    margin-bottom: 88px;
+    border: 2px solid #FFCE00;
+    box-shadow: 0px 0px 0px 2px black;
+    color: #FFCE00;
+    position: relative;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    transform: translateY(2px);
+    z-index: 1;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .first-page-button {
+        margin-bottom: 192px;
+    }
+
+    .first-page-button:hover {
+        margin-bottom: 192px;
+    }
+}
