@@ -1,3 +1,12 @@
+
+.textbox-pagesix {
+position: absolute;
+z-index: 1;
+color: red;
+border: 2px solid hotpink;
+}
+
+
 .slide {
   width: 100vw;
   height: 100vh;
