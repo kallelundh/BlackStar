@@ -13,7 +13,7 @@ const navSlide = () => {
 				link.style.animation = "";
 			} else {
 				link.style.animation = `navLinkFade 0s ease forwards ${index / 10 +
-          0.15}s`;
+					0.15}s`;
 			}
 		});
 		//Burger animation
@@ -66,10 +66,9 @@ dots.forEach(dot => {
 	});
 });
 
+
 slider.addEventListener("scroll", event => {
-	console.log(slider.scrollLeft);
-	console.log(event);
-	console.log(window.innerWidth);
+
 	const pageWidth = window.innerWidth;
 
 	const dotContainer = document.getElementById('dot-container');
@@ -87,31 +86,5 @@ slider.addEventListener("scroll", event => {
 		}
 
 	}
-
-	// if (
-	//   slider.scrollLeft > pageWidth * 0 &&
-	//   slider.scrollLeft < pageWidth * 1
-	// ) {
-	//   // 1 = active
-
-	// } else {
-	//   // 1 != active
-	// }
-	// if (
-	//   slider.scrollLeft > pageWidth * 1 &&
-	//   slider.scrollLeft < pageWidth * 2
-	// ) {
-	//   // 2
-	// }
-	// if (slider.scrollLeft > pageWidth * 2) {
-	//   // 3
-	// }
-
-	// calculate percentage/index from left
-	// revmove active classname from dots
-	// add active state to one dot
 });
 
-// const dots = document.querySelectorAll(".dot");
-// event.target.classList.remove(".dot");
-// event.target.classList.add(".dotChanged");
