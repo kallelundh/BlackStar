@@ -1,4 +1,4 @@
-.page-three {
+.page-four {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 
-.page-three-text {
+.page-four-text {
     padding-bottom: 144px;
     padding-left: 10%;
     padding-right: 65%;
@@ -22,20 +22,20 @@
     color: white;
 }
 
-.page-three-text-p {
+.page-four-text-p {
     border-bottom: 1.75px solid #FFCE00;
     width: 105px;
     font-size: 16px;
     transition: all .2s ease-in-out;
 }
 
-.page-three-text-p:hover {
+.page-four-text-p:hover {
     width: 210px;
 }
 
 /* For Smartphones */
 @media (min-width: 320px) and (max-width: 768px) {
-    .page-three-text {
+    .page-four-text {
         padding-bottom: 64px;
         padding-left: 10%;
         padding-right: 10%;
