@@ -28,18 +28,6 @@
     line-height: 240%;
 }
 
-.page-two h1 {
-    font-size: 32px;
-    font-weight: medium;
-    color: white;
-}
-
-.page-two-text-para {
-    font-size: 20px;
-    font-weight: regular;
-    color: white;
-}
-
 .page-two-text-p {
     border-bottom: 2px solid #FFCE00;
     width: 105px;

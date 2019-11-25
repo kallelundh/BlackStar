@@ -31,4 +31,7 @@ body {
 
 sup {
   color: white;
+  font-family: AktivGrotesk-Medium;
+  font-size: 8px;
+  line-height: 9px;
 }
