@@ -34,6 +34,11 @@ p {
   color: white;
 
 }
+.yellow-line {
+  width: 24px;
+  height: 2px;
+  margin: 30px 0;
+}
 
 @media (max-width: 768px) {
   h2 {
