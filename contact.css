@@ -14,6 +14,9 @@
   width: 100%;
   margin-top: 100px;
 }
+place-holder {
+  color: white;
+}
 
 .button-submit {
   margin-top: 34px;
@@ -57,10 +60,9 @@
 .the-order {
   width: 355px;
   text-align: left;
-  font-size: 20px;
+  font-size: 32px;
   margin-bottom: -5px;
  
-
 }
 
 .phone {
@@ -71,6 +73,7 @@
   width: 355px;
   text-align: left;
   color: black;
+  font-size: 20px;
 }
 
 .contact-line-box {
@@ -138,36 +141,20 @@ label {
 
 
 .mail {
-  font-size: 10px !important;
-  color: #8A7000;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-
-
-}
-
-.footer-section {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer ul {
-  display: flex;
-}
-
-footer ul li {
-  margin: 0px 20px;
-  color: #8A7000;
-  list-style-type: none;
-  border-bottom: solid #8A7000 1px;
   font-size: 10px;
-  margin-bottom: 40px;
+  color: #8A7000;
+}
+
+
+@media (max-width: 768px) {
+  .the-order {
+    font-size: 26px;
+    color:black;
+  }
+  
+  .pre-order {
+    font-size: 16px;
+    color:black;
+  }
+
 }
