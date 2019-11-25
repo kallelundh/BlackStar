@@ -1,0 +1,28 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer ul {
+    display: flex;
+  }
+  
+  footer ul li {
+    margin: 0px 20px;
+    color: #8A7000;
+    list-style-type: none;
+    border-bottom: solid #8A7000 1px;
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
