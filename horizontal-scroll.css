@@ -2,10 +2,10 @@
 .textbox-pagesix {
   position: relative;
   bottom: 500px;
-  left: 60%;
+  left: 30%;
   transform: translateX(-50%);
   z-index: 1; 
-  width: 50%;
+  width: 40%;
 }
 
 

@@ -54,15 +54,10 @@
         line-height: 140%;
     }
 
-    .page-two h1 {
-        font-size: 32px;
-        font-weight: medium;
-        color: white;
+     .page-two h1 {
+     
         margin-bottom: 48px;
-    }
+    } 
 
-    .page-two p {
-        font-size: 20px;
-        font-weight: regular;
-
+  
     }
