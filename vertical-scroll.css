@@ -1,0 +1,44 @@
+/* .slide {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    position: relative;
+  }
+   */
+  .vertical-scroll {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-scroll {
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  
+  .vert-dot {
+    cursor: pointer;
+    height: 10px;
+    width: 24px;
+    margin: 0 8px;
+    background-color: white;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .vert-dot.active,
+  .vert-dot:hover {
+    background-color: #6e6e6e;
+  }
+  

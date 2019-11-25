@@ -88,3 +88,39 @@ slider.addEventListener("scroll", event => {
 	}
 });
 
+
+// //Vertical scroll
+// const slider = document.querySelector(".slider");
+// const dots = document.querySelectorAll(".dot");
+
+// dots.forEach(dot => {
+// 	dot.addEventListener("click", () => {
+// 		const i = dot.dataset.index;
+// 		const sliderRect = slider.getBoundingClientRect();
+
+// 		slider.scrollLeft = sliderRect.width * i;
+// 	});
+// });
+
+
+// slider.addEventListener("scroll", event => {
+
+// 	const pageWidth = window.innerWidth;
+
+// 	const dotContainer = document.getElementById('dot-container');
+
+// 	for (let i = 0; i < dotContainer.childElementCount; i++) {
+// 		const dot = dotContainer.children[i];
+
+// 		if (
+// 			(slider.scrollLeft + (pageWidth / 2)) >= pageWidth * i &&
+// 			(slider.scrollLeft + (pageWidth / 2)) <= pageWidth * (i + 1)
+// 		) {
+// 			dot.classList.add('active');
+// 		} else {
+// 			dot.classList.remove('active');
+// 		}
+
+// 	}
+// });
+
