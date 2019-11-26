@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-sclae=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Sanitize-->
-    <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+
     <!--End Sanitize-->
     <!--Styles-->
     <link href="https://use.typekit.net/ato7huo.css" rel="stylesheet">
@@ -146,7 +146,7 @@
 
         <section class="contact">
             <article class="contact-form">
-                <form class="form" action="get">
+                <form action="download.html" class="form" action="get">
                     <h3 class="the-order">The Newsletter</h3>
 
                     <div class="contact-line-box">
@@ -159,9 +159,9 @@
 
                     <label for="name">Phone number</label>
                     <div class="number">
-                        <p class="phone">+</p> <input class="mini-input" type="number">
+                        <p class="phone">+</p> <input placeholder="46" class="mini-input" type="text">
                         <p class="phone">-</p>
-                        <input class="big-input" type="text" name="name" />
+                        <input placeholder="12345678" class="big-input" type="text" name="name" />
 
                     </div>
                     <label for="name">First name</label>
@@ -174,7 +174,7 @@
 
                     <div class="pre-order-btn">
 
-                        <button class="button-submit" type="submit">Sign up!</button>
+                        <button action="/download.html" class="button-submit" type="submit">Sign up!</button>
                     </div>
 
 
@@ -188,7 +188,7 @@
                                 <img class="imgage-icons" src="Twitter.png" alt="Twitter" loading="lazy" />
                             </div>
                             <p class="mail">info@blackstar.com</p>
-                            <ul>
+                            <ul class="footer-links">
                                 <li>Privacy Policy</li>
                                 <li>Cookie information</li>
                                 <li>Terms & Conditions</li>

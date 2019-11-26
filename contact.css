@@ -66,6 +66,7 @@
   color: rgb(192, 192, 192);
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
+  opacity: 0.6;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: pink;
@@ -104,7 +105,10 @@ label {
 margin-bottom: -20px;
 }
 
-.input {
+.input, select {
+  padding-left: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
   background-color: black;
   border: none;
   font-size: 20px;
@@ -123,6 +127,9 @@ margin-bottom: -20px;
 
 }
 
+.footer-links li {
+  margin-bottom: 15px;
+}
 .mini-input {
   background-color: black;
   border: none;
@@ -153,6 +160,8 @@ margin-bottom: -20px;
 
 
 .mail {
+  margin-top: 10px;
+  margin-bottom: 5px;
   font-size: 10px;
   color: #8A7000;
 }
