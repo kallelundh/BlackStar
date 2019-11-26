@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
     <!--End Sanitize-->
     <!--Styles-->
+    <link href="https://use.typekit.net/ato7huo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
@@ -18,6 +19,10 @@
     <link rel="stylesheet" href="page-one.css" />
     <link rel="stylesheet" href="page-two.css" />
     <link rel="stylesheet" href="vertical-scroll.css" />
+    <link rel="stylesheet" href="page-three.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="page-four.css" />
+    <link rel="stylesheet" href="page-five.css" />
 
 
     <!--End Styles-->
@@ -65,9 +70,7 @@
     <!--smooth-scroll-->
     <div class="container-scroll">
         <section class="page-one">
-            <video autoplay muted loop id="myVideo">
-                <source src="blackstar.mp4" type="video/mp4">
-            </video>
+            <img src="pagetwopic.jpg" alt="">
             <button type="button" class="first-page-button">Pre-order</button>
 
             <!-- <div class="vertical-scroll">
@@ -84,25 +87,41 @@
             </div> -->
         </section>
         <section class="page-two">
-            <!--<img src="pagetwopic.png" alt="" class="page-two-pic">-->
+            <img src="page-one-pic.jpg" alt="" class="page-two-pic">
             <div class="page-two-text">
-                <h1>The Blackstar</h1>
-                <img src="Rectangle26.png" alt="" class="page-two-text-rect">
-                <p class="page-two-text-para">Oldsmobile proudly presents the motorcycle of the future. Your future.</p>
+                <h2>The Blackstar</h2>
+                <img src="Rectangle26.png" alt="" class="yellow-line">
+                <p>Oldsmobile proudly presents the motorcycle of the future. Your future.</p>
                 <p class="page-two-text-p">Learn more</p>
             </div>
         </section>
-        <section>
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet</p>
+        <section class="page-three">
+            <img src="Interior.jpg" alt="" class="page-three-pic">
+            <div class="page-three-text">
+                <h2>The Innovative Design</h2>
+                <img src="Rectangle26.png" alt="" class="yellow-line">
+                <p>Hand built in Motor City, Detroit. Blackstar engineers gives you a top of the line craftmanship &
+                    quality.</p>
+                <p class="page-three-text-p">Learn more</p>
+            </div>
         </section>
-        <section>
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet</p>
+        <section class="page-four">
+            <img src="klocka.png" alt="" class="page-four-pic">
+            <div class="page-four-text">
+                <h2>The Lifestyle</h2>
+                <img src="Rectangle26.png" alt="" class="yellow-line">
+                <p>Get the full Blackstar™ experience with products from the lifestyle package.</p>
+                <p class="page-four-text-p">Learn more</p>
+            </div>
         </section>
-        <section>
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet</p>
+        <section class="page-five">
+            <img src="page-one-pic.jpg" alt="" class="page-five-pic">
+            <div class="page-five-text">
+                <h2>The Backstage Area</h2>
+                <img src="Rectangle26.png" alt="" class="yellow-line">
+                <p>Feel the road with great comfort thanks to the innovative tech inside your Blackstar.</p>
+                <p class="page-five-text-p">Learn more</p>
+            </div>
         </section>
         <section>
             <!-- <div class="textbox-pagesix">
@@ -137,12 +156,19 @@
                     <span class="dot" data-index="3"></span>
                 </div>
             </div>
+            <div class="textbox-pagesix">
+                <h2>The Everyday Life</h2>
+                <img src="Rectangle26.png" class="yellow-line">
+                <p>Blackstar is so much more than just a bike.
+                    It’s your companion & friend that can take you almost anywhere.</p>
+            </div>
         </section>
+
 
         <section class="contact">
             <article class="contact-form">
                 <form class="form" action="get">
-                    <h1 class="the-order">The Order</h1>
+                    <h3 class="the-order">The Newsletter</h3>
 
                     <div class="contact-line-box">
                         <img class="contact-line" src="line.svg" />
@@ -150,11 +176,12 @@
                     <p class="pre-order">Sign up for the blackstar newsletter!</p>
 
                     <label for="email">e-mail</label>
-                    <input class="input" type="text" name="email" />
+                    <input placeholder="email@email.com" class="input" type="text" name="email" />
+
                     <label for="name">Phone number</label>
                     <div class="number">
-                        <p>+</p> <input class="mini-input" type="number">
-                        <p>-</p>
+                        <p class="phone">+</p> <input class="mini-input" type="number">
+                        <p class="phone">-</p>
                         <input class="big-input" type="text" name="name" />
 
                     </div>

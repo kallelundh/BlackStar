@@ -1,4 +1,4 @@
-.page-two {
+.page-five {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.page-two-pic {
+.page-five-pic {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,35 +16,35 @@
     z-index: -1;
 }
 
-
-.page-two-text {
+.page-five-text {
     padding-bottom: 144px;
-    padding-left: 10%;
-    padding-right: 65%;
+    padding-right: 10%;
+    padding-left: 64%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    text-align: left;
+    text-align: right;
     color: white;
     line-height: 240%;
 }
 
-.page-two-text-p {
+.page-five-text-p {
     border-bottom: 1.75px solid #FFCE00;
     width: 81px;
     font-size: 16px;
     transition: all .2s ease-in-out;
+    align-self: flex-end;
     cursor: pointer;
 }
 
-.page-two-text-p:hover {
+.page-five-text-p:hover {
     width: 90px;
 }
 
 /* For Smartphones */
 @media (min-width: 320px) and (max-width: 768px) {
-    .page-two-text {
+    .page-five-text {
         padding-bottom: 64px;
         padding-left: 10%;
         padding-right: 10%;

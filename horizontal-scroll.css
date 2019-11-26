@@ -1,11 +1,12 @@
 
-/* .textbox-pagesix {
-position: relative;
-z-index: 2;
-color: red;
-border: 2px solid hotpink;
-top: 300px; 
-} */
+.textbox-pagesix {
+  position: relative;
+  bottom: 800px;
+  left: 30%;
+  transform: translateX(-50%);
+  z-index: 1; 
+  width: 20%;
+}
 
 
 .slide {
@@ -52,3 +53,16 @@ top: 300px;
   background-color: #6e6e6e;
 }
 
+
+
+@media (max-width: 768px) {
+  
+  .textbox-pagesix {
+    position: relative;
+    bottom: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+    width: 70%;
+  }
+}
