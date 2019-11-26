@@ -29,7 +29,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     transition: transform 0.25s ease-out;
-    padding-top: 15%;
+    padding: 10% 0 0 15%;
     z-index: 2;
 }
 
@@ -104,7 +104,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         transition: transform 0.25s ease-out;
-        padding: 8%;
+        padding: 10% 0 0 15%;
         z-index: 2;
     }
 
@@ -115,6 +115,8 @@
         font-weight: 300;
         font-size: 36px;
         line-height: 46px;
+        color: white;
+        text-decoration: none;
     }
 }
 

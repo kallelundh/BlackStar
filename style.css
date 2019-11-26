@@ -1,4 +1,3 @@
-/* Navbar */
 * {
   box-sizing: border-box;
   font-family: aktiv-grotesk, sans-serif;
@@ -13,7 +12,6 @@ body {
   width: 100vw;
 }
 
-
 .logo h4 {
   background-color: transparent;
   font-size: 20px;
@@ -24,7 +22,17 @@ sup {
   color: white;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px;
-  margin-right: -5px;
+  margin-right: 0px;
+}
+
+@media (min-width: 768px) {
+  sup {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 0px;
+  }
 }
 
 
