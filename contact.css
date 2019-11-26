@@ -106,7 +106,6 @@ margin-bottom: -20px;
 }
 
 .input, select {
-  padding-left: 10px;
   font-family: "IBM Plex Mono", monospace;
   color: white;
   background-color: black;
@@ -127,9 +126,6 @@ margin-bottom: -20px;
 
 }
 
-.footer-links li {
-  margin-bottom: 15px;
-}
 .mini-input {
   background-color: black;
   border: none;
