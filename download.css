@@ -1,0 +1,78 @@
+body {
+    background-color: #FFCE00;
+    height: 100vh;
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+}
+p {
+    font-size: 16px;
+}
+
+.line-download {
+display: flex;
+justify-content: center;
+}
+
+a {  font-family: aktiv-grotesk, sans-serif;
+    color: black;
+}
+.go-back {
+    text-decoration: underline;
+}
+.download {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+height: 10%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.email {
+    font-size: 14px;
+}
+.image-icons {
+height: 24px;
+  width: 24px;
+}
+
+.icons-download {
+  
+        display: flex;
+        width: 10%;
+        justify-content: space-between;
+      
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 32px;
+        color: black;
+      }
+    
+      p {
+        font-size: 20px;
+        color: black;
+      }
+    
+    .icons-download {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+    }
+}

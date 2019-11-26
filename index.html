@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-sclae=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Sanitize-->
-    <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+
     <!--End Sanitize-->
     <!--Styles-->
     <link href="https://use.typekit.net/ato7huo.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ato7huo.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="smooth-scroll.css" />
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="page-one.css" />
     <link rel="stylesheet" href="page-two.css" />
     <link rel="stylesheet" href="page-three.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="page-four.css" />
     <link rel="stylesheet" href="page-five.css" />
 
@@ -93,9 +94,10 @@
         <section class="page-four">
             <img src="klocka.png" alt="" class="page-four-pic">
             <div class="page-four-text">
-                <h2>The Lifestyle</h2>
+                <h2>The Everyday Life</h2>
                 <img src="Rectangle26.png" alt="" class="yellow-line">
-                <p>Get the full Blackstar™ experience with products from the lifestyle package.</p>
+                <p>Blackstar is so much more than just a bike.
+                    It’s your companion & friend that can take you almost anywhere.</p>
                 <p class="page-four-text-p">Learn more</p>
             </div>
         </section>
@@ -109,13 +111,6 @@
             </div>
         </section>
         <section>
-            <!-- <div class="textbox-pagesix">
-                <h3>The Everyday Life</h3>
-                <img src="line.svg" alt="">
-                <p>Blackstar is so much more than just a bike.
-                    It’s your companion & friend that can take you almost anywhere.</p>
-            </div> -->
-
 
             <div class="slider">
                 <div>
@@ -142,18 +137,18 @@
                 </div>
             </div>
             <div class="textbox-pagesix">
-                <h2>The Everyday Life</h2>
+                <h2> The Everyday Life</h2>
                 <img src="Rectangle26.png" class="yellow-line">
-                <p>Blackstar is so much more than just a bike.
-                    It’s your companion & friend that can take you almost anywhere.</p>
+                <p>Blackstar is so much more than just a bike. It’s your companion & friend that can take you almost
+                    anywhere.</p>
             </div>
         </section>
 
 
         <section class="contact">
             <article class="contact-form">
-                <form class="form" action="get">
-                    <h1 class="the-order">The Order</h1>
+                <form action="download.html" class="form" action="get">
+                    <h3 class="the-order">The Newsletter</h3>
 
                     <div class="contact-line-box">
                         <img class="contact-line" src="line.svg" />
@@ -161,12 +156,13 @@
                     <p class="pre-order">Sign up for the blackstar newsletter!</p>
 
                     <label for="email">e-mail</label>
-                    <input class="input" type="text" name="email" />
+                    <input placeholder="email@email.com" class="input" type="text" name="email" />
+
                     <label for="name">Phone number</label>
                     <div class="number">
-                        <p class="phone">+</p> <input class="mini-input" type="number">
+                        <p class="phone">+</p> <input placeholder="46" class="mini-input" type="text">
                         <p class="phone">-</p>
-                        <input class="big-input" type="text" name="name" />
+                        <input placeholder="12345678" class="big-input" type="text" name="name" />
 
                     </div>
                     <label for="name">First name</label>
@@ -179,7 +175,7 @@
 
                     <div class="pre-order-btn">
 
-                        <button class="button-submit" type="submit">Sign up!</button>
+                        <button action="/download.html" class="button-submit" type="submit">Sign up!</button>
                     </div>
 
 
@@ -193,7 +189,7 @@
                                 <img class="imgage-icons" src="Twitter.png" alt="Twitter" loading="lazy" />
                             </div>
                             <p class="mail">info@blackstar.com</p>
-                            <ul>
+                            <ul class="footer-links">
                                 <li>Privacy Policy</li>
                                 <li>Cookie information</li>
                                 <li>Terms & Conditions</li>
