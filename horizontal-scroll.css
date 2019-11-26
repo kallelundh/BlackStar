@@ -1,12 +1,12 @@
 
 .textbox-pagesix {
   position: relative;
-  bottom: 650px;
+  bottom: 750px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1; 
   width: 70%;
-  
+
 }
 
 
@@ -62,9 +62,9 @@
   .textbox-pagesix {
     position: relative;
     bottom: 800px;
-    left: 30%;
+    left: 25%;
     transform: translateX(-50%);
-    z-index: 1; 
-    width: 20%;
+    z-index: 1;
+    width: 30%;
   }
 }
