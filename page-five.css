@@ -4,33 +4,42 @@
     align-items: center;
     justify-content: flex-end;
     text-align: center;
-    background-image: url("pagetwopic.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
 
+.page-five-pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
 
 .page-five-text {
     padding-bottom: 144px;
-    padding-left: 10%;
-    padding-right: 65%;
+    padding-right: 10%;
+    padding-left: 64%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    text-align: left;
+    text-align: right;
     color: white;
+    line-height: 240%;
 }
 
 .page-five-text-p {
     border-bottom: 1.75px solid #FFCE00;
-    width: 105px;
+    width: 81px;
     font-size: 16px;
     transition: all .2s ease-in-out;
+    align-self: flex-end;
+    cursor: pointer;
 }
 
 .page-five-text-p:hover {
-    width: 210px;
+    width: 90px;
 }
 
 /* For Smartphones */
