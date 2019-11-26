@@ -71,3 +71,8 @@ slider.addEventListener("scroll", event => {
 
 });
 
+
+
+
+
+

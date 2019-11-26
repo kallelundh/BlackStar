@@ -1,44 +1,30 @@
-/* .slide {
-    width: 100vw;
-    height: 100vh;
-    scroll-snap-align: center;
-  }
-  
-  .slider {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    position: relative;
-  }
-   */
-  .vertical-scroll {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-  }
-  
-  .vertical-scroll {
-    position: relative;
-    bottom: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
-  
-  
-  .vert-dot {
-    cursor: pointer;
-    height: 10px;
-    width: 24px;
-    margin: 0 8px;
-    background-color: white;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .vert-dot.active,
-  .vert-dot:hover {
-    background-color: #6e6e6e;
-  }
-  
+.vert-dot {
+  cursor: pointer;
+  height: 24px;
+  width: 10px;
+  margin: 0 8px;
+  background-color: white;
+  transition: background-color 0.6s ease;
+  z-index: 999;
+  margin-top: 10px;
+  display: block;
+}
+
+.vert-dot.active,
+.vert-dot:hover {
+  background-color: #6e6e6e;
+}
+
+.scroll-section {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 999;
+  height: 100vh;
+
+}
+
+.vertical-dots {
+  margin: auto 5px;
+  position: relative;
+}
