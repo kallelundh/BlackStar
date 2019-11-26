@@ -58,7 +58,7 @@
 .the-order {
   width: 355px;
   text-align: left;
-  font-size: 32px;
+  font-size: 25px;
   margin-bottom: -5px;
  
 }
@@ -66,6 +66,7 @@
   color: rgb(192, 192, 192);
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
+  opacity: 0.6;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: pink;
@@ -85,7 +86,7 @@
   width: 355px;
   text-align: left;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contact-line-box {
@@ -104,7 +105,9 @@ label {
 margin-bottom: -20px;
 }
 
-.input {
+.input, select {
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
   background-color: black;
   border: none;
   font-size: 20px;
@@ -153,19 +156,21 @@ margin-bottom: -20px;
 
 
 .mail {
+  margin-top: 10px;
+  margin-bottom: 5px;
   font-size: 10px;
   color: #8A7000;
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .the-order {
-    font-size: 26px;
+    font-size: 32px;
     color:black;
   }
   
   .pre-order {
-    font-size: 16px;
+    font-size: 20px;
     color:black;
   }
 
