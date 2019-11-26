@@ -29,8 +29,17 @@
     align-items: flex-start;
     justify-content: flex-start;
     transition: transform 0.25s ease-out;
-    padding: 8%;
+    padding-top: 15%;
     z-index: 2;
+}
+
+.nav-links a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-active {
@@ -43,14 +52,6 @@
     background-color: transparent;
     z-index: 2;
     margin: 10px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .burger {
@@ -88,11 +89,8 @@
     transition: all 0.5s ease;
 }
 
-/* For tablets */
-@media (min-width: 768px) and (max-width: 1024px) {}
-
-/* For Smartphones */
-@media (min-width: 320px) and (max-width: 768px) {
+/* For Desktop */
+@media (min-width: 768px) {
     .nav-links {
         position: fixed;
         height: 100%;
@@ -106,18 +104,18 @@
         align-items: flex-start;
         justify-content: flex-start;
         transition: transform 0.25s ease-out;
-        padding-top: 15%;
+        padding: 8%;
         z-index: 2;
     }
 
     .nav-links a {
+        color: white;
+        text-decoration: none;
         font-style: normal;
         font-weight: 300;
-        font-size: 24px;
-        line-height: 31px;
-        color: white;
+        font-size: 36px;
+        line-height: 46px;
     }
-
 }
 
 
