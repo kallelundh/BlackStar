@@ -102,7 +102,7 @@ label {
   width: 355px;
   font-size: 16px;
   font-family: "IBM Plex Mono", monospace;
-margin-bottom: -35px;
+margin-bottom: -20px;
 }
 
 .input, select {
@@ -163,7 +163,7 @@ margin-bottom: -35px;
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .the-order {
     font-size: 32px;
     color:black;

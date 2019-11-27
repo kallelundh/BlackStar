@@ -46,7 +46,7 @@
 }
 
 /* For Desktop */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .page-five-text {
         padding-bottom: 130px;
         padding-right: 10%;

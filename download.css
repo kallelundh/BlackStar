@@ -59,7 +59,7 @@ height: 24px;
       
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     h2 {
         font-size: 32px;
         color: black;

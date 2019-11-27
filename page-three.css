@@ -31,6 +31,14 @@
     line-height: 20px;
 }
 
+
+.yellow-line-three {
+    width: 24px;
+    height: 2px;
+    margin: 30px 0;
+    
+}
+
 .page-three-text-p {
     border-bottom: 1.75px solid #FFCE00;
     width: 81px;
@@ -46,7 +54,7 @@
 }
 
 /* For Desktop */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .page-three-text {
         padding-bottom: 130px;
         padding-right: 10%;
