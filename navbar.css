@@ -29,7 +29,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     transition: transform 0.25s ease-out;
-    padding: 10% 0 0 15%;
+    padding: 20% 0 0 15%;
     z-index: 2;
 }
 
@@ -90,7 +90,7 @@
 }
 
 /* For Desktop */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .nav-links {
         position: fixed;
         height: 100%;

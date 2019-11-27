@@ -43,7 +43,7 @@
 }
 
 /* For Desktop */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .page-two-text {
         padding-bottom: 130px;
         padding-left: 10%;
