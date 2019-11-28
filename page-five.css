@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    text-align: right;
+    text-align: left;
     color: white;
     font-weight: 300;
     font-size: 16px;
@@ -33,16 +33,16 @@
 
 .page-five-text-p {
     border-bottom: 1.75px solid #FFCE00;
-    width: 81px;
+    width: 71px;
     font-size: 14px;
     line-height: 140%;
     transition: all .2s ease-in-out;
-    align-self: flex-end;
+    align-self: flex-start;
     cursor: pointer;
 }
 
 .page-five-text-p:hover {
-    width: 90px;
+    width: 81px;
 }
 
 /* For Desktop */

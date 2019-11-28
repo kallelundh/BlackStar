@@ -1,0 +1,29 @@
+body {
+    background-color: #FFCE00;
+    height: 100vh;
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.re-directed {
+    font-weight: bold;
+}
+.tap-here {
+
+    color: black;
+}
+h2 {
+    font-size: 26px;
+}
+p {
+    font-size: 16px;
+}

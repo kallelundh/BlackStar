@@ -31,7 +31,7 @@
 
 .page-two-text-p {
     border-bottom: 1.75px solid #FFCE00;
-    width: 81px;
+    width: 71px;
     transition: all .2s ease-in-out;
     cursor: pointer;
     font-size: 14px;
@@ -39,7 +39,7 @@
 }
 
 .page-two-text-p:hover {
-    width: 90px;
+    width: 81px;
 }
 
 /* For Desktop */
