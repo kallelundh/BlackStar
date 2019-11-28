@@ -1,6 +1,6 @@
 
 
-# BlackStar
+# BlackStar 🏍️
 <img src="https://i.imgur.com/Q5OORhM.jpg" width="100%">
 
 We made a landing page for a motorcycle called - BlackStar.
