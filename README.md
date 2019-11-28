@@ -1,7 +1,12 @@
 
-# BlackStar
-Make a landing page for a motorcycle called - BlackStar.
 
+# BlackStar
+<img src="https://i.imgur.com/Q5OORhM.jpg" width="100%">
+
+We made a landing page for a motorcycle called - BlackStar.
+
+
+# Visit
 Vist our cool site and be inspired to buy a Blackstar
 
 https://the-blackstar.netlify.com/
