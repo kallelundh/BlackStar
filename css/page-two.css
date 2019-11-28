@@ -36,6 +36,7 @@
     cursor: pointer;
     font-size: 14px;
     line-height: 140%;
+    margin-top: 10px;
 }
 
 .page-two-text-p:hover {
