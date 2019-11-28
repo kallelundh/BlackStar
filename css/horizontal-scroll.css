@@ -57,7 +57,7 @@
 @media (min-width: 500px) {
   .textbox-pagesix {
     position: relative;
-    bottom: 30%;
+    bottom: 90%;
     left: 25%;
     transform: translateX(-50%);
     z-index: 1;
