@@ -31,14 +31,14 @@
 
 .page-four-text-p {
     border-bottom: 1.75px solid #FFCE00;
-    width: 81px;
+    width: 71px;
     font-size: 14px;
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
 
 .page-four-text-p:hover {
-    width: 90px;
+    width: 81px;
 }
 
 /* For Desktop */
