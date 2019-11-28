@@ -92,4 +92,9 @@ p {
     line-height: 15px;
     margin-right: 0px;
   }
+
+  .margin-line {
+    margin-top: 8px;
+    margin-bottom: -8px;
+  }
 }
