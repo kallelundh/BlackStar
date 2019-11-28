@@ -27,7 +27,7 @@
 }
 
 .button-submit {
-  margin-top: 34px;
+  margin-top: 0px;
   font-size: 16px;
   width: 126px;
   height: 40px;
@@ -66,11 +66,10 @@
 }
 
 .the-order {
-  width: 355px;
+  width: 300px;
   text-align: left;
   font-size: 25px;
-  margin-bottom: -5px;
- 
+  margin-bottom: 16px;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgb(192, 192, 192);
@@ -93,26 +92,41 @@
 }
 .pre-order {
   margin-top: 0;
-  width: 355px;
+  width: 300px;
   text-align: left;
   color: black;
   font-size: 16px;
+  margin-top: 16px;
 }
 
 .contact-line-box {
-  width: 355px;
+  width: 300px;
+  margin-top: -10px;
+}
+
+.contact-box {
+  margin-top: -20px;
 }
 
 .contact-line {
   text-align: left;
 }
 
+.form-box {
+  margin-top: 30px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 label {
   text-align: left;
-  width: 355px;
+  width: 300px;
   font-size: 16px;
   font-family: "IBM Plex Mono", monospace;
-  margin-bottom: -20px;
+  margin-bottom: -5px;
 }
 
 .input, select {
@@ -123,14 +137,14 @@ label {
   font-size: 20px;
   border-radius: 8px;
   height: 44px;
-  width: 355px;
+  width: 300px;
 
 }
 
 .number {
   display: flex;
   justify-content: space-between;
-  width: 355px;
+  width: 300px;
   align-items: center;
   height: 44px;
 

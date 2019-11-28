@@ -65,6 +65,12 @@ footer {
 
 /* Desktop */
 @media (min-width: 500px) {
+    .line-download {
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+        }
+        
     h2 {
         font-size: 32px;
         color: black;
