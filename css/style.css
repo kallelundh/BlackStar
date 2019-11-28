@@ -18,14 +18,12 @@ body {
   font-weight: 400;
 }
 
-
 sup {
   color: white;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px;
   margin-right: 0px;
 }
-
 
 h2 {
   font-size: 26px;
@@ -39,7 +37,6 @@ p {
   color: white;
   font-weight: 300;
   font-style: normal;
-
 }
 
 .yellow-line {
@@ -62,8 +59,7 @@ p {
   display: none;
 }
 
-/* desktop */
-
+/* Desktop */
 @media (min-width: 500px) {
 
   .images-desktop {
@@ -76,7 +72,7 @@ p {
     display: block;
   }
 
-.images-mobile {
+  .images-mobile {
   display: none;
 }
 

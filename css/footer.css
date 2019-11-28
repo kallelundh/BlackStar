@@ -1,11 +1,8 @@
-
 footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-  
-
   }
   
   .footer-section {
@@ -18,7 +15,6 @@ footer {
   
   footer ul {
     display: flex;
-
   }
   
   footer ul li {
@@ -29,7 +25,5 @@ footer {
     font-size: 10px;
     margin-bottom: 40px;
     cursor: pointer;
-
-
   }
 

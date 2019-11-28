@@ -18,8 +18,6 @@ section {
     /* Scroll Snap */
     scroll-snap-align: center;
 }
-
-
 /* Section Images */
 section#home {
     background: url("") no-repeat center center/cover;

@@ -16,6 +16,7 @@ main {
 h2 {
     font-size: 26px;
 }
+
 p {
     font-size: 16px;
 }
@@ -28,63 +29,69 @@ justify-content: center;
 a {  font-family: aktiv-grotesk, sans-serif;
     color: black;
 }
+
 .go-back {
     text-decoration: underline;
 }
+
 .download {
     display: flex;
     flex-direction: column;
 }
 
-footer {
-height: 10%;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-}
+
 .email {
     font-size: 14px;
 }
+
 .image-icons {
-height: 24px;
-  width: 24px;
+    height: 24px;
+    width: 24px;
 }
 
 .icons-download {
-  
-        display: flex;
-        width: 30%;
-        justify-content: space-between;
-      
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
 }
 
+footer {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Desktop */
 @media (min-width: 500px) {
     h2 {
         font-size: 32px;
         color: black;
-      }
+    }
     
-      p {
+    p {
         font-size: 20px;
         color: black;
-      }
+    }
     
     .icons-download {
         display: flex;
         width: 10%;
         justify-content: space-between;
     }
+
     .image-icons {
         transition: all .2s ease-in-out;
         cursor: pointer;
       }
     
-      .image-icons:hover {
+    .image-icons:hover {
         transform: scale(1.3);
         cursor: pointer;
       }
-      .email {
+
+    .email {
           cursor: pointer;
       }
     
